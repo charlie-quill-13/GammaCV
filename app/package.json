@@ -7,7 +7,7 @@
     "clean": "rimraf .next out",
     "dev": "next",
     "serve": "next start",
-    "build": "next build",
+    "build": "next build --webpack",
     "build:theme": "node scripts/theme",
     "build:docs": "node scripts/docs",
     "predev": "npm run build:docs",
