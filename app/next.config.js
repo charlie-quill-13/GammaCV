@@ -5,6 +5,7 @@ module.exports = {
   env: {
     LIB_VERSION: pkg.version,
   },
+  turbopack: {},
   webpack: (config) => {
     config.module.rules.push(
       {
